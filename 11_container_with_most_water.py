@@ -1,9 +1,5 @@
-
-from ast import List
-
-
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
+class Solution(object):
+    def maxArea(self, height):
         start = 0
         end = len(height) - 1
         result = -10000
